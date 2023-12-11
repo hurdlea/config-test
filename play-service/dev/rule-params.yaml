@@ -1,0 +1,43 @@
+vod:
+  store2/ON000001:
+  store2/ON000002:
+  store2/ON000003:
+  store2/ON000004:
+  store2/ON000005:
+  store2/ON000006:
+  store2/ON000007:
+  store2/ON000008:
+  store2/ON000009:
+  store2/ON000010:
+  store2/OB2109282355011:
+  store2/OB2109282255011:
+  store2/OB2109282155011:
+  store2/OB2109282055011:
+live:
+  channel001:
+  channel998:
+  channel997:
+  channel996:
+
+# This is for testing and requires updating often
+strex_live:
+  # Arena HD (ARD)
+  channel010:
+    live_url: /out/v1/1f17d4fcf3ed4fb3b00e2a944797b6f3/index.mpd
+    live_drm_id: jit_263960
+    l2v_url: /out/v1/6fff7287b6694010893790f31b6d7cdf/index.mpd
+    l2v_drm_id: pvs263960
+    host_id: dc9w747svx1yl
+
+cloudfront_blocked: [
+    "202.10.241.0/24",
+    "134.202.64.0/19",
+    "134.202.192.0/19",
+    "161.8.0.0/19",
+    "159.197.128.0/18",
+    "159.197.192.0/19"
+  ]
+
+uhd_channel: [
+    "channel102", "channel112"
+  ]
