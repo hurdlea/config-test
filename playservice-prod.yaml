@@ -1,0 +1,3 @@
+service-config: /playservice/prod/service_config.json
+flags:  /playservice/prod/flags.yaml
+rule-params: /playservice/prod/rule-params.yaml
