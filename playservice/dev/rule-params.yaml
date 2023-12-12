@@ -42,3 +42,5 @@ constants:
   uhd_channel: [
       "channel102", "channel112"
   ]
+
+  test: 0
